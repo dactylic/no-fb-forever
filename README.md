@@ -20,6 +20,14 @@ fuckfacebook(length=30, unit=m, interval=60)
 
 This would make the script run for 30 minutes, checking the window title every minute.
 
+## Dependencies
+
+This script needs you to have pyautogui installed. To install it with pip, run:
+```
+pip install pyautogui
+```
+
+Shoutout to Al Sweigart for pyautogui.
 
 ### Side Note
 The script checks your current window title for "Facebook", so if you are on a window that is titled "Facebook is set to die tomorrow" it will also close that window at the scheduled interval. 
